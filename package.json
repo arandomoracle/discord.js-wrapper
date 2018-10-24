@@ -1,0 +1,40 @@
+{
+  "name": "discord.js-wrapper",
+  "description": "A wrapper around discord.js servers to allow easier testing",
+  "version": "0.1.0",
+  "homepage": "https://github.com/arandomoracle/discord.js-wrapper",
+  "author": {
+    "name": "arandomoracle",
+    "email": "5637338+arandomoracle@users.noreply.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arandomoracle/discord.js-wrapper"
+  },
+  "bugs": {
+    "url": "https://github.com/arandomoracle/discord.js-wrapper/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "lint": "grunt lint",
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js",
+    "dotenv": "^6.0.0",
+    "grunt": "^1.0.2"
+  },
+  "devDependencies": {
+    "discord.js-tests": "github:arandomoracle/discord.js-tests",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "gruntify-eslint": "^4.0.0"
+  },
+  "keywords": [
+    "discord",
+    "discord.js"
+  ]
+}

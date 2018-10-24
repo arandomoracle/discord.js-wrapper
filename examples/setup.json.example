@@ -1,0 +1,26 @@
+{
+    "guilds": [
+        {
+            "id": "GUILD_ID",
+            "purpose": "GUILD_PURPOSE",
+            "channels": [
+                {
+                    "id": "CHANNEL_ID",
+                    "purpose": "CHANNEL_PURPOSE"
+                ]
+            ],
+            "categories": [
+                {
+                    "id": "CATEGORY_ID",
+                    "purpose": "CATEGORY_PURPOSE",
+                    "channels": [
+                        {
+                            "id": "CHANNEL_ID",
+                            "purpose": "CHANNEL_PURPOSE"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
