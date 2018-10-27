@@ -25,11 +25,11 @@
   },
   "dependencies": {
     "discord.js": "github:discordjs/discord.js",
+    "discord.js-tests": "github:arandomoracle/discord.js-tests",
     "dotenv": "^6.0.0",
     "grunt": "^1.0.2"
   },
   "devDependencies": {
-    "discord.js-tests": "github:arandomoracle/discord.js-tests",
     "grunt-contrib-nodeunit": "^2.0.0",
     "gruntify-eslint": "^4.0.0"
   },
